@@ -2185,6 +2185,11 @@ p-locate@^5.0.0:
   dependencies:
     p-limit "^3.0.2"
 
+pagedone@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/pagedone/-/pagedone-1.1.2.tgz#c67bb2d57a728cb36e88e7ee80851bd3bfea5c3d"
+  integrity sha512-/NoizEeg4zlFqJy7Te/mXSPO6SfiF4uiyB3N7RymeLR5iWlH8NKS8U72cRmNpp3uqAr4guu1e3r3OLG/h3i9dg==
+
 parent-module@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parent-module/-/parent-module-1.0.1.tgz#691d2709e78c79fae3a156622452d00762caaaa2"

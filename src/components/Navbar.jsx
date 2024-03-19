@@ -49,15 +49,15 @@ function Navbar() {
       {/* Mobile menu */}
       {isOpen && (
         <div className="md:hidden">
-          <a href="#" className="block text-white text-sm py-2 px-4">
+          <NavLink to='/' className="block text-white text-sm py-2 px-4">
             Home
-          </a>
-          <a href="#" className="block text-white text-sm py-2 px-4">
+          </NavLink>
+          <NavLink to="/create" className="block text-white text-sm py-2 px-4">
           Create Color Palette
-          </a>
-          <a href="#" className="block text-white text-sm py-2 px-4">
+          </NavLink>
+          <NavLink to="/popular" className="block text-white text-sm py-2 px-4">
           Popular Color
-          </a>
+          </NavLink>
         </div>
       )}
     </nav>

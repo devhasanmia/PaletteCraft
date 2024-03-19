@@ -18,7 +18,7 @@ const colors = [
 const Popular = () => {
   return (
     <div>
-      <h1 className='mt-5 text-[#104864] text-4xl font-extrabold text-center mb-5'>Must Popular Color And Color Code </h1>
+      <h1 className='mt-5 text-[#104864] text-4xl font-extrabold text-center mb-5'>Revealing {colors.length} Popular Colors and Their Codes</h1>
       <hr />
       <br />
       <div className="grid grid-cols-4 gap-4">

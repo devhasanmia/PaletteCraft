@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -6,20 +7,20 @@ function Navbar() {
     <nav className="bg-[#104864] p-6">
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <a href="#" className="text-white text-lg font-extrabold">
+          <NavLink to="/" className="text-white text-lg font-extrabold">
             PaletteCraft
-          </a>
+          </NavLink>
         </div>
         <div className=" font-extrabold hidden md:block">
-          <a href="#" className="text-white text-sm mx-4">
+          <NavLink to="/" className="text-white text-sm mx-4">
             Home
-          </a>
-          <a href="#" className="text-white text-sm mx-4">
+          </NavLink>
+          <NavLink to="/create" className="text-white text-sm mx-4">
             Create Color Palette
-          </a>
-          <a href="#" className="text-white text-sm mx-4">
+          </NavLink>
+          <NavLink to="/popular" className="text-white text-sm mx-4">
             Popular Color
-          </a>
+          </NavLink>
 
         </div>
         <div className="md:hidden">

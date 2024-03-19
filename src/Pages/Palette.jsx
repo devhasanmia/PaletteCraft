@@ -51,7 +51,7 @@ const Palette = () => {
           <button className="submit-button ml-4 px-4 py-2 bg-blue-500 text-white rounded-md shadow-md" onClick={handleSubmit}>Submit</button>
         </div>
         <br />
-        <br />
+      
         <br />
         <div className="grid mt-5 grid-cols-4 gap-4 ">
           {colors.map((color, index) => (
@@ -64,7 +64,8 @@ const Palette = () => {
             </div>
           ))}
         </div>
-        
+          <br />
+          <br />
         <Popular/>
 
       </div>
